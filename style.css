@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+div#factory{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    flex-flow: row wrap;
+width: auto;}
+div.item{
+    height: 3vh;
+    width: 2vw;
+    border: 0.5px solid black;
+}
+
+#inputColor{
+    width: 50px;
+    height: 50px;
+    border: 8px;
+}
+#enterButton{
+    width: 60px;
+    height: 30px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+div.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+input#numberEnter{
+    border-radius: 8px;
+    border: 2px solid black;
+    width: 60px;
+}
+input#number{
+    border-radius: 8px;
+    border: 2px solid black;
+    width: 100px;
+}
